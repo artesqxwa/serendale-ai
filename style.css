@@ -1,0 +1,202 @@
+@font-face {
+    font-family: SpaceGrotesk;
+    src: url(fonts/SpaceGrotesk.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Chillax;
+    src: url(fonts/Chillax.woff2);
+    font-weight: 500px;
+}
+
+@font-face {
+    font-family: CabinetGrotesk;
+    src: url(fonts/CabinetGrotesk.woff2);
+}
+
+@font-face {
+    font-family: ClashGrotesk;
+    src: url(fonts/ClashGrotesk.woff2);
+}
+
+body {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    font-family: SpaceGrotesk;
+    gap: 40px;
+    width: 594px;
+    height: 22px;
+    animation-duration: opacity 0.2s;
+}
+
+.header__logo {
+    font-family: Chillax;
+    font-size: 24px;
+    transition-duration: 0.2s;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 54px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 254px;
+    align-items: center;
+}
+
+.header__social {
+    display: flex;
+    justify-content: space-between;
+    gap: 16;
+    width: 128px;
+    height: 21px;
+    transition-duration: 0.2s;
+}
+
+.header__logo:hover {
+    opacity: 0.6;
+    transition-duration: 0.2;
+}
+
+.header__list__item:hover {
+    opacity: 0.6;
+    transition-duration: 0.2s;
+}
+.header__social__item:hover {
+    opacity: 0.6;
+    transition-duration: 0.2s;
+}
+
+.header__social__item {
+    transition-duration: 0.2s;
+}
+
+.header__list__item {
+    transition-duration: 0.2s;
+}
+
+.buttons {
+    font-family: CabinetGrotesk;
+}
+
+p {
+    font-family: CabinetGrotesk;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 165%;
+    letter-spacing: 0.04em;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: ClashGrotesk;
+    margin: 0;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    background: linear-gradient(90deg, #ff3bff 0%, #ecbfbf 38.02%, #5c24ff 75.83%, #d94fd5 100%);
+    background-clip: text;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: 0.02em;
+    margin-top: 263px;
+    }
+
+h2 {
+    letter-spacing: 0.02em;
+    margin-bottom: 20px;
+}
+
+.main__container {
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn1 {
+    position: relative;
+    padding: 24.2px 34px;
+    border: 2px solid transparent;
+    border-radius: 100px;
+    background: transparent;
+    transition-duration: 0.3s;
+    z-index: 0;
+}
+
+.btn1::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 100px;
+    padding: 2px; /* width of the "border" */
+    background: linear-gradient(90deg, #FF3BFF 0%, #ECBFBF 38%, #5C24FF 76%, #D94FD5 100%);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.btn2 {
+    padding: 22px 32px;
+    border: 2px solid white;
+    border-radius: 100px;
+    transition-duration: 0.3s;
+}
+
+.btn1:hover {
+    scale: 0.9;
+    transition-duration: 0.3s;
+}
+
+.btn1:hover {
+    scale: 0.9;
+    transition-duration: 0.3s;
+}
+
+.btn2:hover {
+    scale: 0.9;
+    transition-duration: 0.3s;
+}
+
+.btn2:hover {
+    scale: 0.9;
+    transition-duration: 0.3s;
+}
+
+.robbot {
+    position: relative;
+    transform: translateY(132312);
+}
+
+.image__container {
+    display: flex;
+    justify-content: center;
+}

@@ -1,5 +1,4 @@
 # Serendale AI
---
 🇷🇺 Первый самостоятеный проект, связанный с версткой сайта. Сайт сверстван по макету в Figma (утерян), отсутствует адаптация.
 --
 🇬🇧 The first independent project related to website layout. The website was created based on a Figma layout (lost), no adaptation.
